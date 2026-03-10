@@ -30,8 +30,11 @@
     </section>
 <main>
 
+
+
     <section id="about">
         <h2>About</h2>
+        <div class="row">
             <div class="section__description">
                 <div class="section__description--wrapper">
                  <p class="section__description--para">FES is an online learning platform that offers courses in web development, programming, and design. Our mission is to make quality education accessible to everyone, regardless of their background or experience level. With a focus on practical skills and real-world projects, we help learners build the confidence and knowledge they need to succeed in the tech industry.</p>
@@ -41,17 +44,29 @@
             <img src="./HTML Practise Assets/HTML Practise Assets/about.jpg" alt="">
         </figure>
         </div>
-    </section>
-    <section id="discord">
-        <h2>Discord</h2>
-        <figure>
-            <img src="./HTML Practise Assets/HTML Practise Assets/discord.png" alt="Discord Logo">
-        </figure>
-        <div>
-            <p>Join our Discord community to connect with other learners, get support, and stay updated on new courses and events.</p>
-            <button>Join Now</button>
         </div>
     </section>
+
+
+
+    <section id="discord">
+        <h2>Discord</h2>
+        <div class="row">
+        <div class="section__description">
+            <figure class="about__img--wrapper">
+                <img src="./HTML Practise Assets/HTML Practise Assets/discord.png" alt="Discord Logo">
+            </figure>
+            <div>
+                <p class="section__description--para">Join our Discord community to connect with other learners, get support, and stay updated on new courses and events.</p>
+                <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis rerum est consequuntur iusto, adipisci tenetur reiciendis nihil, voluptate obcaecati placeat corrupti culpa libero laudantium praesentium sapiente, minima laborum ad.</p>
+                <button>Join Now</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
     <section id="contact">
         <h2>Contact</h2>
         <form action="">
@@ -59,17 +74,20 @@
             <input type="email" id="email" placeholder="Enter your email">
             <label for="message">Message</label>
             <textarea id="message" rows="4" placeholder="Enter your message"></textarea>
+            <button>Contact Us!</button>
         </form>
     </section>
 </main>
 
+
+
 <footer>
-    <img src="./HTML Practise Assets/HTML Practise Assets/FES.svg" alt="FES Logo">
-    <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#courses">Courses</a>
+    <img class="footer__logo" src="./HTML Practise Assets/HTML Practise Assets/FES.svg" alt="FES Logo">
+    <div class="footer__links">
+        <a class="footer__links" href="#about">About</a>
+        <a class="footer__links" href="#discord">Discord</a>
+        <a class="footer__links" href="#contact">Contact</a>
+        <a class="footer__links" href="#courses">Courses</a>
     </div>
     <p>&copy; 2024 FES. All rights reserved.</p>
 
